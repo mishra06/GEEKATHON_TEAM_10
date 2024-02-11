@@ -30,8 +30,8 @@ This is a simple web application designed to help users improve their typing spe
 
 
 ## UI
-![image](![alt text](image.png))
-![image](![alt text](image-1.png))
+![image](image.png)
+![image](image-1.png)
 
 ## Contributing
 If you'd like to contribute to this project, please follow these guidelines:
