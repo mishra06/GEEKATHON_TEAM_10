@@ -101,6 +101,7 @@ function sorting() {
 
   sortingBtn.forEach((e) => {
     e.addEventListener("click", (ele) => {
+      content.innerHTML = "";
       sortingBtn.forEach((btn) => {
         btn.removeAttribute("id");
       });
