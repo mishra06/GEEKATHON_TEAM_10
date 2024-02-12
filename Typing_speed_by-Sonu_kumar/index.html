@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <img src="Assets/photo.avif" alt="">
+      </div>
+
+      <div class="start">
+        <button id="startBtn">Start</button>
+      </div>
+     
+
+      <div class="contentBox">
+        <div class="typing-text">
+          <p></p>
+        </div>
+
+        <!-- <textarea type="text" class="inputData"></textarea> -->
+        <textarea class="inputData"></textarea>
+
+        <!-- Bottom_content ******************* -->
+
+        <div class="Bottom_content">
+          <ul class="result_details">
+            <!-- ************ -->
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+
+            <!-- *************** -->
+            <li class="mistakes">
+              <p>mistakes:</p>
+              <span>0</span>
+            </li>
+
+            <!-- *********** -->
+
+            <li class="wpm">
+              <p>wpm:</p>
+              <span>0</span>
+            </li>
+
+            <!-- ************** -->
+            <li class="cpm">
+              <p>cpm:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <!-- ********** -->
+          <button class="tryAgain">Try Again</button>
+        </div>
+      </div>
+
+      <!-- dark and light mode  -->
+
+      <div class="setMode">
+        <div class="light">
+          <span class="material-symbols-outlined"> light_mode </span>
+        </div>
+
+        <div class="dark">
+          <span class="material-symbols-outlined"> dark_mode </span>
+        </div>
+      </div>
+    </main>
+
+    <script src="paragraphs.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
