@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/aeb6fedcde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- outer page  -->
+
+
+<div class="welcome_page">
+    <div class="outer">
+        <h1>TEAM_10</h1>
+        <p>IF you want to enjoy code editor then please click</p>
+        <button class="bn29 outr">Click'me</button>
+    </div>
+</div>
+
+
+<!-- innerpage  -->
+<div class="inr">
+    <button onclick="myFunction()"><i class="fa-solid fa-moon togl"></i></button>
+    <span class="home_page">Home</span>
+    <div class="container">
+        <div class="left">
+
+            <!-- html code section -->
+            <div class="fst nes">
+                <label><i class="fa-brands fa-html5"></i> HTML</label>
+                <textarea  id="ht_code" onkeyup="run()"></textarea>
+                <button class="bn632-hover bn23 btn1" onclick="copyToClipboard()">Copy Html</button>
+            </div>
+            
+            
+
+
+            <!-- css code section  -->
+
+            <div class="sec nes">
+                <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
+                <textarea name="" id="css_code" onkeyup="run()"></textarea>
+                <button class="bn632-hover bn23 btn1" onclick="copyClipboard()">Copy Css</button>
+            </div>
+
+            
+
+            <!-- js code section  -->
+
+            <div class="thr nes">
+                <label><i class="fa-brands fa-js"></i> JavaScript</label>
+                <textarea name="" id="js_code" onkeyup="run()"></textarea>
+                <button class="bn632-hover bn23 btn1" onclick="Clipboard()">Copy Js</button>
+            </div>
+
+            
+        </div>
+
+
+        <div class="right">
+
+            <label ><i class="fa-solid fa-play"></i> output</label>
+            
+
+            <iframe id="output">Output</iframe>
+        </div>
+    </div>
+</div>
+   
+
+    <div class="popup">
+        <div class="cards">
+            <img src="./assets/tick-.png" alt="">
+            <h3>Copied!!</h3>
+            <p>You are ready to track !</p>
+        </div>
+        <div class="btn">
+            <div class="btnss">
+                <button class="bn5 okbtn">OK</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
