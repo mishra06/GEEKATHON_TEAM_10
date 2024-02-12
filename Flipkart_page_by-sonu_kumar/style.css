@@ -110,14 +110,12 @@ main {
 .leftSideSection li {
   list-style: none;
   width: 100%;
-  /* border-bottom: 1px solid; */
   font-size: 12px;
   font-weight: 500;
   color: #212121;
   min-height: 50px;
   background-color: #fff;
   padding: 10px;
-  /* border: solid 1px; */
 }
 
 .leftSideSection li .CATEGORIES {
@@ -127,14 +125,14 @@ main {
 .leftSideSection .priceSection {
   display: flex;
   flex-direction: column;
-  /* border: solid 1px red; */
+
 }
 
-.leftSideSection li .minmaxPrice {
+/* .leftSideSection li .minmaxPrice {
   display: flex;
   align-items: center;
   gap: 30px;
-}
+} */
 
 /* liContener **************************** */
 
@@ -144,7 +142,7 @@ main {
   gap: 10px;
 }
 
-.content {
+.contentWrapper {
   width: 80%;
   height: 100%;
   background-color: white;
@@ -158,6 +156,11 @@ main {
   margin-top: 5px;
 }
 
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .content .productCard {
   display: flex;
   flex-direction: column;
@@ -165,7 +168,7 @@ main {
   height: 350px;
   width: 250px;
   padding: 1rem;
-  /* gap: 0.5rem; */
+  gap: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   /* border: solid; */
@@ -250,4 +253,33 @@ del {
   font-weight: 700;
   color: green;
   cursor: default;
+}
+
+/* *************sortOptions************************ */
+.sortOptions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #e4e7ed;
+
+}
+
+.sortTitle {
+  font-weight: 500;
+  padding-bottom: 0.3rem;
+  cursor: default;
+}
+
+.sort-item {
+  padding-bottom: 0.3rem;
+  cursor: pointer;
+  border-bottom: 2px solid #ffffff;
+}
+.sort-item:hover {
+  color: #3c71e9;
+  border-bottom: 2px solid #3c71e9;
 }
