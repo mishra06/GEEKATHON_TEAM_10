@@ -14,7 +14,7 @@ This is a simple web application designed to help users improve their typing spe
 ## Demo
 👉 [Click Me For Live Demo]()
 
-👉🏻 [Try it here]()
+👉🏻 [Try it here](https://mishra06.github.io/GEEKATHON_TEAM_10/Typing_speed_by-Sonu_kumar/)
 
 ## Features
 1. **Typing speed test:** Users can start typing a provided passage and the application will calculate their typing speed in words per minute (WPM).
