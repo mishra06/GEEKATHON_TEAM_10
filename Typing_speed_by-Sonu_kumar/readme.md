@@ -6,7 +6,6 @@ This is a simple web application designed to help users improve their typing spe
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [UI](#ui)
 - [Contributing](#contributing)
 - [License](#license)
