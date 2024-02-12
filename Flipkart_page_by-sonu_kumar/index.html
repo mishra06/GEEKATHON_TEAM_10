@@ -61,7 +61,7 @@
             <p class="CATEGORIES">Mobile Accessories</p>
             <p class="CATEGORIES">Mobile Chargers</p>
           </li>
-          <li class="liContener" class="priceSection">
+          <!-- <li class="liContener" class="priceSection">
             <div>
               <h4>PRICE</h4>
             </div>
@@ -88,36 +88,48 @@
                 <option value="">100+</option>
               </select>
             </div>
-          </li>
-          <li class="liContener">
+          </li> -->
+          <li class="liContener" id="aboveRating">
             <h4>CUSTOMER RATINGS</h4>
             <!-- ***** -->
             <div class="rating">
-              <input type="checkbox" />
+              <input type="checkbox" id="rating4" value="4" />
               <p>4★ & above</p>
             </div>
             <!-- ***** -->
             <div class="rating">
-              <input type="checkbox" />
+              <input type="checkbox" id="rating3" value="3" />
               <p>3★ & above</p>
             </div>
             <!-- **** -->
             <div class="rating">
-              <input type="checkbox" />
+              <input type="checkbox" id="rating2" value="2" />
               <p>2★ & above</p>
             </div>
             <!-- **** -->
 
             <div class="rating">
-              <input type="checkbox" />
+              <input type="checkbox" id="rating1" value="1" />
               <p>1★ & above</p>
             </div>
           </li>
         </ul>
 
         <!-- ************* -->
-
-        <div class="content"></div>
+        <div class="contentWrapper">
+          <!-- ---------------sort-options-------------------- -->
+          <div class="sortOptions">
+            <span class="sortTitle">Sort By</span>
+            <span class="sort-item popularity" id="">Popularity</span>
+            <span class="sort-item low-to-high" id=""
+              >Price -- Low to High</span
+            >
+            <span class="sort-item high-to-low" id=""
+              >Price -- High to Low</span
+            >
+          </div>
+          <div class="content"></div>
+        </div>
       </main>
     </div>
 
