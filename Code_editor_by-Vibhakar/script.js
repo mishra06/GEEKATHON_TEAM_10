@@ -74,7 +74,7 @@ function myFunction() {
 
 Outer_Page.addEventListener('click',()=>{
     WELCOME_PAGE.style.display="none";
-    Inner_Page.style.display="flex";
+    Inner_Page.style.display="block";
 })
 
 // inner to outer 
