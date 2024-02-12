@@ -1,8 +1,8 @@
 const products = [
   {
-    image: "product1.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/jpmxuvk0/printer-refurbished/z/r/z/u-ts207-canon-original-imafbu3xpytszpgx.jpeg?q=70",
 
-    title: "Product 1",
+    title: "Printer",
 
     rating: 4.5,
 
@@ -22,9 +22,9 @@ const products = [
   },
 
   {
-    image: "product2.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/k3khevk0/camera/b/y/k/dkian-sa-digital-kids-camera-20mp-1080p-with-32gb-memory-card-original-imafmne6ueajav2g.jpeg?q=70",
 
-    title: "Product 2",
+    title: "Cameras",
 
     rating: 4.2,
 
@@ -43,9 +43,9 @@ const products = [
   },
 
   {
-    image: "product3.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/xif0q/power-bank/d/a/f/-original-imagky3e8yp5ebvr.jpeg?q=70",
 
-    title: "Product 3",
+    title: "PowerBank",
 
     rating: 3.9,
 
@@ -64,9 +64,9 @@ const products = [
   },
 
   {
-    image: "product4.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/xif0q/projector/r/a/o/-original-imagtr8npfrsbx6s.jpeg?q=70",
 
-    title: "Product 4",
+    title: "Projector",
 
     rating: 4.7,
 
@@ -85,9 +85,9 @@ const products = [
   },
 
   {
-    image: "product5.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/ko8xtow0/monitor/t/a/y/d24-20-66aekac1in-lenovo-original-imag2qwzazcdmqtb.jpeg?q=70",
 
-    title: "Product 5",
+    title: "Monitors",
 
     rating: 4.3,
 
@@ -106,9 +106,9 @@ const products = [
   },
 
   {
-    image: "product6.jpg",
+    image: "https://rukminim2.flixcart.com/image/200/200/xif0q/keyboard/gaming-keyboard/b/s/q/f2023-aula-original-imagnhc44uakb4zb.jpeg?q=70",
 
-    title: "Product 6",
+    title: "KeyBoard",
 
     rating: 4.0,
 
@@ -128,9 +128,9 @@ const products = [
   },
 
   {
-    image: "product7.jpg",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/0/4/-original-imagxaqu3samghjd.jpeg?q=70",
 
-    title: "Product 7",
+    title: "REDMI 12 5G (Pastel Blue, 256 GB)",
 
     rating: 4.8,
 
@@ -149,9 +149,9 @@ const products = [
   },
 
   {
-    image: "product8.jpg",
+    image: "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70",
 
-    title: "Product 8",
+    title: "Apple iPhone 12 (Blue, 64 GB)",
 
     rating: 4.1,
 
@@ -170,9 +170,9 @@ const products = [
   },
 
   {
-    image: "product9.jpg",
+    image: "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70",
 
-    title: "Product 9",
+    title: "Apple iPhone 12 (White, 64 GB)",
 
     rating: 3.8,
 
@@ -191,9 +191,9 @@ const products = [
   },
 
   {
-    image: "product10.jpg",
+    image: "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/p/f/w/apple-iphone-12-dummyapplefsn-original-imafwg8dubf3nytw.jpeg?q=70",
 
-    title: "Product 10",
+    title: "Apple iPhone 12 (Green, 64 GB)",
 
     rating: 4.6,
 
@@ -212,9 +212,9 @@ const products = [
   },
 
   {
-    image: "product11.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/kyj0vbk0/showpiece-figurine/w/m/e/8-8-947-abdul-handicrafts-8-original-imagaqqzmhfzzxmt.jpeg?q=70",
 
-    title: "Product 11",
+    title: "Vishal Enterprises Decorative Showpiece - 9.5 cm",
 
     rating: 4.4,
 
@@ -233,9 +233,9 @@ const products = [
   },
 
   {
-    image: "product12.jpg",
+    image: "https://rukminim2.flixcart.com/image/312/312/xif0q/dslr-camera/i/o/c/eos-r100-24-1-eos-r100-kit-canon-original-imagqeydhsxgacxp.jpeg?q=70",
 
-    title: "Product 12",
+    title: "Canon R100 Mirrorless Camera RF-S 18-45mm f/4.5-6.3 IS STM",
 
     rating: 4.9,
 
@@ -254,9 +254,9 @@ const products = [
   },
 
   {
-    image: "product13.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-cycle/b/t/w/urbn-long-range-standard-orange-blue-20-motovolt-single-speed-original-imagxf9z4gqxyfws.jpeg?q=70",
 
-    title: "Product 13",
+    title: "Motovolt URBN Long range Standard 20 inches Single Spee...",
 
     rating: 4.2,
 
@@ -275,30 +275,30 @@ const products = [
   },
 
   {
-    image: "product14.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-cycle/r/6/j/monero-lr-black-17-5-ss-bikes-single-speed-original-imagtnpgrrfgbazj.jpeg?q=70",
 
-    title: "Product 14",
+    title: "SS Bikes Monero LR 27.5 inches Single Speed Lithium-ion...",
 
     rating: 4.3,
 
     flipkartAssured: false,
 
-    price: 449.99,
+    price: "21,999",
 
     deliveryIn1Day: true,
 
     noCostEMI: false,
 
-    specialPrice: 429.99,
+    specialPrice: "29,999",
 
     discountPrice: 20.0,
     popularity: 990,
   },
 
   {
-    image: "product15.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/kmuxevk0/coffee/f/m/b/400-xtra-instant-coffee-pouch-continental-coffee-original-imagfnuhhcscepf8.jpeg?q=70",
 
-    title: "Product 15",
+    title: "Continental Coffee XTRA Instant Coffee",
 
     rating: 4.7,
 
@@ -317,9 +317,9 @@ const products = [
   },
 
   {
-    image: "product16.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee/w/8/m/-original-imaggmwd8dy6zh7j.jpeg?q=70",
 
-    title: "Product 16",
+    title: "BRU Gold Instant Coffee",
 
     rating: 4.0,
 
@@ -338,9 +338,9 @@ const products = [
   },
 
   {
-    image: "product17.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/km9ht3k0/coffee/d/p/v/200-speciale-instant-coffee-pouch-continental-coffee-original-imagf7ehvvph3hem.jpeg?q=70",
 
-    title: "Product 17",
+    title: "Continental Coffee SPECIALE Instant Coffee",
 
     rating: 3.9,
 
@@ -359,9 +359,9 @@ const products = [
   },
 
   {
-    image: "product18.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/klphn680/coffee/e/p/9/200-xtra-instant-coffee-pouch-continental-coffee-original-imagyrtqhmnt3gkg.jpeg?q=70",
 
-    title: "Product 18",
+    title: "Continental Coffee XTRA Instant Coffee",
 
     rating: 4.5,
 
@@ -380,9 +380,9 @@ const products = [
   },
 
   {
-    image: "product19.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee/k/q/n/200-100-arabica-instant-coffee-powder-200-grams-premium-coffee-original-imagkycq2kztsfvh.jpeg?q=70",
 
-    title: "Product 19",
+    title: "Bevzilla 100% Arabica Instant Coffee Powder - 200 Grams...",
 
     rating: 4.6,
 
@@ -401,9 +401,9 @@ const products = [
   },
 
   {
-    image: "product20.jpg",
+    image: "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee/v/g/s/200-green-coffee-beans-for-weight-loss-unroasted-beans-organic-original-imagrwj2yhg7rqpx.jpeg?q=70",
 
-    title: "Product 20",
+    title: "NeutriOne Green Coffee Beans for Weight Loss ",
 
     rating: 3.8,
 

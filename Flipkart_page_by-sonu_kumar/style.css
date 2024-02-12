@@ -152,8 +152,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 280px;
-  width: 200px;
+  height: 350px;
+  width: 250px;
   padding: 1rem;
   /* gap: 0.5rem; */
   cursor: pointer;
