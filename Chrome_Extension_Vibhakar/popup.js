@@ -87,10 +87,22 @@ const onDelete = async (event) => {
 
 // dlt all bookmark
 
-// const onDeleteAll  = async(e) =>{
-//     const activeTab = await getActiveTabURL();
-//     const bookmarkTime = event.target.parentNode.parentNode.getAttribute("timestamp");
-// }
+const onDeleteAll  = async(e) =>{
+
+  const ersall = document.querySelector("#bookmarks");
+    const activeTab = await getActiveTabURL();
+    
+
+  
+    chrome.tabs.sendMessage(
+      activeTab.id,
+      {
+        type: "DELETEALL",
+        
+      },
+      viewBookmarks
+    );
+}
 
 // show bookmark
 
@@ -137,4 +149,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
   
-  
+  const OUTER = document.querySelector(".outerrr>img");
+
+OUTER.addEventListener('click', onDeleteAll)

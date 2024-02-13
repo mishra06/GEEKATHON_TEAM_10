@@ -77,17 +77,20 @@
 
         } 
 
-        else if ( type === "DELETE"){
-            currentVideoBookmarks = currentVideoBookmarks.filter((b) => b.time != value);
+        else if ( type === "DELETEALL"){
+          currentVideoBookmarks = currentVideoBookmarks="";
 
-            // after reload the page bookmark will not shows
-            chrome.storage.sync.set({ [currentVideo]: JSON.stringify(currentVideoBookmarks) });
-      
-            response(currentVideoBookmarks);
-        }
+          // after reload the page bookmark will not shows
+          chrome.storage.sync.set({ [currentVideo]: JSON.stringify(currentVideoBookmarks) });
+    
+          response(currentVideoBookmarks);
+      }
     });
 
-    newVideoLoaded();
+    let trail="&ytExt=ON";
+    if(!window.location.href.includes(trail)&&!window.location.href.includes("ab_channel")&&window.location.href.includes("youtube.com/watch")){
+            window.location.href+=trail;
+    }
 })();
 
 
