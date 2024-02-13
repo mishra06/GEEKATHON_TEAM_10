@@ -1,6 +1,6 @@
 # YouTube Bookmarks Extension
 
-<img src="ASsets/book.png" alt="drawing" width="150"/><img src="ASsets/cross.png.png" alt="drawing" width="150"/><img src="ASsets/play.png.png.png" alt="drawing" width="150"/>
+<img src="ASsets/book.png" alt="drawing" width="150"/><img src="ASsets/cross.png" alt="drawing" width="150"/><img src="ASsets/play.png" alt="drawing" width="150"/>
 
 **YouTube Bookmarks Extension** is a Chrome extension that allows users to save timestamps as bookmarks while watching YouTube videos. It provides an easy way to revisit specific moments in a video without having to manually remember or search for them.
 
@@ -9,7 +9,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -47,13 +46,6 @@
 2. Click on the bookmark button in the video player controls to add a new bookmark at the current timestamp.
 3. Open the extension popup to view, play, or delete bookmarks.
 
-## Screenshots
-**Popup** \
-<img src="./ASsets/1.png" alt="drawing" width="200" height="300"/>
-<img src="./ASsets/2.png" alt="drawing" width="200" height="300"/>
-<img src="./ASsets/3.png" alt="drawing" width="200" height="300"/>
-<img src="./ASsets/4.png" alt="drawing" width="200" height="300"/>
-<img src="./ASsets/5.png" alt="drawing" width="200" height="300"/>
 
 ## Contributing
 **Contributions** are welcome! To contribute to the development of the YouTube Bookmarks Extension, follow these guidelines:
