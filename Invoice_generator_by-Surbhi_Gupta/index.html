@@ -917,6 +917,32 @@ function updateCurrentDate() {
 
 document.getElementById('reviewButton').addEventListener('click', function(event) {
      event.preventDefault(); 
+     // Select all input elements within the container
+// const allinputs = document.querySelectorAll('.container input');
+
+// // Variable to track if any input has a non-empty value
+// let isEmpty = true;
+
+//     // Loop through each input element
+//     allinputs.forEach(input => {
+//         // Check if the input value is not empty
+//         if (input.value.trim() == '') {
+//             isEmpty = false;
+//             console.log('value',isEmpty);
+//              // Exit the loop if a non-empty value is found
+//         }
+//         else{
+//             isEmpty = true;
+//             return;
+//         }
+//     });
+
+// // Display alert message if any input has a non-empty value
+// if (!isEmpty) {
+//     console.log('isEmpty',isEmpty);
+//     alert('Please fill in all fields.');
+// }
+// else{
      let subtotalfield = parseFloat(document.getElementById("gettingsubtotal").textContent);
 
     let taxfield = subtotalfield * (parseFloat(document.getElementById("maintax").value.trim()))/100;
@@ -1014,6 +1040,7 @@ document.getElementById('reviewButton').addEventListener('click', function(event
         commentTemplate.style.display = 'none';
         document.body.style.backgroundColor = '#F2F3F7';
     }
+// }
 });
 
 // Event listener for downloading the invoice as a PDF
@@ -1029,7 +1056,7 @@ html2canvas(document.getElementById("invoiceCapture"), { width: divWidth, height
     const imgData = canvas.toDataURL('image/png');
 
     // Create a new jsPDF instance with the width and height of the invoiceCapture div
-    const pdf = new jsPDF('p', 'pt', [1000, 830]);
+    const pdf = new jsPDF('p', 'pt', [620, 830]);
 
     // Add the image to the PDF
     pdf.addImage(imgData, 'PNG', 0, 0);
