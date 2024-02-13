@@ -17,9 +17,9 @@ Print and Save Functionality
 Download option
 
 ## Technologies Used:-
-Javascript - For all the functionalities including add item, delete item, review invoice, download invoice.
-HTML & CSS - For the UI and alingments of invoice generator area buttons and navbar.
-Git - For version control and collaboration
+-Javascript - For all the functionalities including add item, delete item, review invoice, download invoice.
+-HTML & CSS - For the UI and alingments of invoice generator area buttons and navbar.
+-Git - For version control and collaboration
 
 
 ## Demo
