@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trello</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <title>Welcome to Trollo</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/96f8a23c24.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <div class="nav">
-            <h1 id="navHead">My Trello Board</h1>
-        </div>
-
-        <form id="todoForm">
-            <input type="text" id="addTodo" placeholder="Add Todo Task" maxlength="20" minlength="1">
-            <button type="submit" id="btnAddTodo" class="addBtn">Add+</button>
-        </form>
-
-        <div class="content">
-            <div id="Todo" class="smlcont">
-                <h2 class="h2">TODO</h2>
-                <button class="btn_add" id="btnAddInTodo">Add Task</button>
-            </div>
-            <div id="doing" class="smlcont">
-                <h2 class="h2">DOING</h2>
-                <button class="btn_add" id="btnDoing">Add Task</button>
-            </div>
-            <div id="done" class="smlcont">
-                <h2 class="h2">DONE</h2>
-                <button class="btn_add" id="btnDone" >Add Task</button>
-            </div>
-            <div id="onHold" class="smlcont">
-                <h2 class="h2">ON HOLD</h2>
-                <button class="btn_add" id="btnOnHold">Add Task</button>
-            </div>
-        </div>
+        <h1>Hitarth is inviting you to manage your tasks in Trello app</h1>
+        <button class="button-33" role="button"><a href="index-main.html">Click to go</a></button>
+        <button class="button-75" role="button" onclick="showToast()"><span class="text">Exit</button>
     </div>
-    <script src="script.js"></script>
-</body>
 
+    <div id="toastBox"></div>
+
+    <script src="script1.js"></script>
+</body>
 </html>
