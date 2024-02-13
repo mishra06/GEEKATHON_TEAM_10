@@ -21,6 +21,6 @@
 
 9.Sonu Kumar [Flipkart page sort & filter](https://github.com/mishra06/GEEKATHON_TEAM_10/tree/main/Flipkart_page_by-sonu_kumar) => [Project Live](https://mishra06.github.io/GEEKATHON_TEAM_10/Typing_speed_by-Sonu_kumar/)
 
-10.Harrikrishnan K [Mine game](https://github.com/mishra06/GEEKATHON_TEAM_10/tree/main/Mine_game_by-Harikrishnan_k) => [Try it](https://mishra06.github.io/GEEKATHON_TEAM_10/Mine_game_by-Harikrishnan_k/)
+10.Harrikrishnan K [Mine game](https://github.com/mishra06/GEEKATHON_TEAM_10/tree/main/Mine_game_by-Harikrishnan_k) => [Project Live](https://mishra06.github.io/GEEKATHON_TEAM_10/Mine_game_by-Harikrishnan_k/)
 
 
