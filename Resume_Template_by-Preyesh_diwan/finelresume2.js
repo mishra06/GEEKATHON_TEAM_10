@@ -35,15 +35,23 @@ let CARRER = document.querySelector("#CARRER").value;
 
 let prName = document.querySelector('#prfullName')
 prName.innerText = fullName;
+let showName = document.querySelector('#showName')
+showName.innerText = fullName;
 
 let praddresh = document.querySelector('#praddresh')
 praddresh.innerHTML = `${state} , ${city} , ${add}`;
+let showAdd = document.querySelector('#showAdd');
+showAdd.innerText = `${state} , ${city} , ${add}`;
 
 let prphone = document.querySelector('#prphone');
 prphone.innerHTML = phoneNumber;
+let showphone = document.querySelector('#showphone');
+showphone.innerText = phoneNumber;
 
 let premail = document.querySelector('#premail');
 premail.innerHTML = email;
+let showemail = document.querySelector('#showemail');
+showemail.innerText = email;
 
 
 console.log("kuch",fullName,city,state,add,phoneNumber,email,
@@ -255,7 +263,6 @@ function jobExp(){
 }
 function sampleExp(){
 
-    alert('click')
     let file = document.querySelector("#side2")
 
     var exp = document.querySelector("#exp").value;
