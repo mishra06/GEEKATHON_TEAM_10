@@ -1,0 +1,112 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Apple Watch Ultra 2",
+            "price": 5000,
+            "image": "./images/apple-watch-ultra.jpg",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.0
+        },
+        {
+            "id": 2,
+            "name": "Apple i-pad",
+            "price": 40000,
+            "image": "./images/apple-ipad.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.8
+        },
+        {
+            "id": 3,
+            "name": "Cosmic Joystick Remote",
+            "price": 2400,
+            "image": "./images/cosmic-joystick.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 3.6
+        },
+        {
+            "id": 4,
+            "name": "Iphone 15",
+            "price": 70000,
+            "image": "./images/iphone-15.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.4
+        },
+        {
+            "id": 5,
+            "name": "Macbook Pro M2 Chip",
+            "price": 150000,
+            "image": "./images/mac-pro.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.9
+        },
+        {
+            "id": 6,
+            "name": "Cosmic Mouse",
+            "price": 650,
+            "image": "./images/mouse.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 2.0
+        },
+        {
+            "id": 7,
+            "name": "Noise Wrist Watch",
+            "price": 949,
+            "image": "./images/noise-watch.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 2.5
+        },
+        {
+            "id": 8,
+            "name": "Boat Razer Headphone",
+            "price": 1200,
+            "image": "./images/boat-headphone-1.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.0
+        },
+        {
+            "id": 9,
+            "name": "Boat Headphon",
+            "price": 2490,
+            "image": "./images/boat-headphone-2.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 3.0
+        },
+        {
+            "id": 10,
+            "name": "Blauplunkt Earburd",
+            "price": 720,
+            "image": "./images/blaupunkt-earburds.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 3.5
+        },
+        {
+            "id": 11,
+            "name": "Redgear Joystick Remote",
+            "price": 440,
+            "image": "./images/redgear-joystick.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 2.6
+        },
+        {
+            "id": 12,
+            "name": "Samsun S-24 Ultra Mobile",
+            "price": 51000,
+            "image": "./images/samsung-s24.JPG",
+            "get-it-by": "",
+            "delivery": "free",
+            "rating": 4.2
+        }
+    ]
+  }

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Integration</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        /* #product-list{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: gray;
+            justify-content: space-evenly;
+            gap: 10px;
+            padding: 20px;
+        } */
+        
+        /* Top Navbar 1 */
+        nav{
+            background-color: rgb(230, 217, 83);
+            /* height: 45px; */
+            /* width: 100%; */
+            /* display: flex; */
+            overflow: hidden;
+            /* align-items: center; */
+            font-weight: 900;
+            
+        }
+        nav div{
+            float: right;
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .nav-btn{
+            background-color: rgb(214, 60, 32);
+            color: white;
+            border-radius: 30px;
+            /* margin: 5px 0px; */
+        }
+
+        /* Top Navbar 1 */
+        .logo{
+            width: 130px;
+            /* background-color: red; */
+            float: left;
+            position: absolute;
+            margin: 20px 80px;
+        }
+        .logo-navbar{
+            /* background-color: rgb(49, 99, 174); */
+            overflow: hidden;
+            font-weight: 900;
+            /* height: 100px; */
+        }
+        .logo-navbar #contact-details{
+            float: right;
+            color: #000000;
+            text-align: center;
+            padding: 30px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin-right: 100px;
+            cursor: pointer;
+        }
+        /* Banner */
+        .banner-image img{
+            width: 100%;
+        }
+        #banner-text{
+            position: absolute;
+            font-weight: 600;
+            color: white;
+            font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+            font-size: 45px;
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+
+        /* Programs */
+        #pro{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: gray;
+            justify-content: space-evenly;
+            gap: 10px;
+            padding: 20px;
+        }
+        #pro h1{
+            font-weight: 700;
+            font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+            font-size: 40px;
+            color: #0a0a0a;
+
+        }
+    </style>
+</head>
+<body onload="productDetails()">
+
+    <!-- Top Navbar 1 -->
+    <nav>
+        <div class="nav-btn">DONATE NOW</div>
+        <div id="programs">PROGRAMS</div>
+        <div id="home">HOME</div>
+    </nav>
+
+    <!-- Top Navbar 2 -->
+    <div class="logo-navbar">
+        <div class="logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div id="contact-details">
+            <div>Connect for Help</div>
+            <div>+91 7926723221</div>
+        </div>
+    </div>
+
+    <div class="banner-image">
+        <label for="" id="banner-text">A little contribution towards big dreams!</label>
+        <img src="./images/internal-banner-3.jpg" alt="">
+    </div>
+
+    <!-- Donate on Specific Program -->
+    <div id="pro">
+        <h1>Donate on Specific Program</h1>
+        
+    </div>
+
+    <!-- <div id="product-list"></div> -->
+
+
+    <script>
+        function productDetails(){
+            const productList = document.getElementById("product-list");
+
+            fetch("./data.json")
+            .then((res)=>res.json())
+            .then((parsedData)=>{
+                for(let i=0;i<parsedData.products.length;i++){
+                    // console.log(parsedData.products[i].image);
+                    let data = parsedData.products[i];
+                    let imageURL = data.image;
+
+                    // Creates image div here
+                    let proDiv = document.createElement("div");
+                    let image = document.createElement("img");
+                    proDiv.setAttribute("width",200);
+                    image.setAttribute("background-size","cover");
+                    image.setAttribute("width",200);
+                    proDiv.style.backgroundColor = "red";
+
+                    image.setAttribute("src",imageURL);
+                    image.style.height = "200px";
+                    // let span2 = document.createElement("span");
+                    // let span3 = document.createElement("span");
+                    // span1.innerHTML = title;
+                    proDiv.append(image);
+                    productList.append(proDiv);        
+                }
+            })
+        }
+    </script>
+</body>
+</html>
