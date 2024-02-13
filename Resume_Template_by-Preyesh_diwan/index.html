@@ -4,48 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+    <link rel="stylesheet" href="./resumestyle.css">
 </head>
 <body>
-<div>
-    <h1>Resume</h1>
-    <p>print resume</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quibusdam corporis temporibus sapiente molestiae corrupti ea officia architecto necessitatibus natus harum ratione nobis autem facilis quod accusamus quia doloremque, pariatur ab quasi reiciendis reprehenderit. Ut vero magni architecto, earum modi officiis recusandae suscipit, quae quibusdam soluta laudantium iusto, quam veritatis repellendus fugit ea. Labore amet doloremque accusantium porro dolorem ab pariatur, ducimus unde iure deleniti voluptatum non at inventore commodi quae assumenda nulla fugiat dicta repellat voluptas distinctio eligendi? Accusamus sunt culpa odit sequi veniam animi sed eius eaque sint officia iusto repellendus voluptate nobis iste cum reiciendis similique non sit accusantium, voluptas, natus molestias, optio dignissimos quae. Error perferendis suscipit unde ducimus placeat dicta sed, nesciunt, molestiae veritatis tempora, non consequatur tenetur! Voluptatem suscipit possimus, voluptate laudantium enim libero odio itaque! Quidem, itaque recusandae saepe hic fuga impedit eius animi doloribus a voluptatibus atque! Et, porro libero? Ab, suscipit nesciunt odio rem quae possimus modi excepturi vel nostrum officia ipsam et, quas, unde illo laudantium eaque qui deserunt minima! In sunt fugit nobis architecto tenetur, explicabo unde accusantium ipsum obcaecati quos voluptates, nostrum, quibusdam non libero asperiores ipsam nihil labore illo esse! Possimus commodi aut modi corporis totam neque accusantium omnis quas exercitationem eligendi vel iure, doloremque quia veniam molestias sed! Corporis mollitia eos est ea error veritatis porro maiores cum sequi pariatur minus consectetur neque voluptatibus, impedit dolorem! Ullam ipsa deserunt fugiat quia nihil aspernatur, ducimus, est id eum illo accusantium quibusdam officiis autem earum impedit reiciendis vitae! Facilis esse, dolorum obcaecati atque quos nesciunt ipsum veniam unde illum ducimus voluptatibus quis cum quibusdam dolore fuga omnis neque quaerat, animi saepe optio rem? Minima a optio ducimus vel odio eos nemo doloremque cupiditate culpa voluptates assumenda quisquam quos earum temporibus dolorem expedita velit eius perferendis delectus, harum tempora consectetur minus nostrum placeat. Illo quaerat quod quasi fugiat, cum libero blanditiis nesciunt alias. Dolores autem veritatis nesciunt velit eum laboriosam mollitia error in totam similique, dolorem consequuntur quae necessitatibus alias aut deleniti atque consectetur quidem. Obcaecati possimus omnis voluptates illo excepturi corrupti minus eligendi perspiciatis sed. Molestias, optio accusantium est quos quasi, cum sapiente libero nemo perferendis qui earum quo voluptatibus similique perspiciatis dolorum inventore cumque a at quibusdam fuga error! Hic, recusandae culpa. Ducimus atque, fugiat officia ex alias provident praesentium sapiente unde commodi ut corrupti blanditiis eum aut? Architecto culpa laboriosam, sapiente maiores iste enim dolorum cumque possimus earum quis temporibus delectus, voluptate ea, odit necessitatibus omnis natus consectetur debitis. Praesentium dolor, quo sed consectetur commodi nesciunt minima deleniti illum, debitis culpa, totam neque blanditiis odit. Nihil tenetur dolorum placeat blanditiis ad quam officia error doloremque quas, rerum temporibus ducimus velit modi illo fuga, inventore repellat soluta dolorem consectetur? Laboriosam quas eligendi, quaerat aperiam architecto earum, vitae consequatur nam accusamus quod animi corporis dolores non maiores ut dolorum assumenda labore eum ex, quibusdam nulla minima ipsa. Officia esse est quaerat recusandae, minus commodi aliquid obcaecati perferendis ab quam minima eveniet maiores dolores in enim molestias impedit facere. Omnis rerum ipsa assumenda repellendus ducimus necessitatibus consequuntur consectetur sequi! Molestias deleniti fugiat consectetur, aliquam veritatis officia sit omnis autem in totam veniam distinctio facere asperiores ad impedit voluptate! Iure hic ab odio nisi nesciunt, laudantium natus tempora eaque quia unde qui aliquid quo. Nemo obcaecati est ad, quo consequatur vero neque minus ea error et odio itaque, adipisci rem, labore dolorem dolorum impedit molestiae? Nulla alias nam velit dolores, magni porro repellendus, officia quasi, fugit quas labore ab totam praesentium dicta illum nobis non at hic placeat expedita quis. Esse obcaecati quam fuga qui atque, tenetur saepe officiis iure.</p>
-    <div id="print"></div>
-    <form >
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-    </form>
-    <a href="./resume.html">next pag</a>
-    <a href="javascript:getpdf()" id="dow">downlode</a>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates architecto ullam assumenda, laboriosam voluptate aut autem necessitatibus in provident ex fugiat cupiditate hic beatae dignissimos est non maiores eius? Accusantium.</p>
-</div>
-    <script>
-        async function getpdf(){
-
-            let print = document.querySelector("#print");
-            var doc = new jsPDF('1' , 'pt');
-
-            await html2canvas(print,{
-                    
-            })
-            .then((c) =>{
-                doc.addImage(c.toDataURL("omage/png"),'PNG',10,10)
-            })
-            doc.save("resume.pdf");
-        }
-
-    </script>
+    <div class="welcome_page">
+        <div class="outer">
+            <h1>TEAM_10</h1>
+            <p>IF you want to enjoy code editor then please click</p>
+            <!-- <button class="bn29 outr">Click'me</button> -->
+            <div>
+                <a href="./resume.html"><img width="100vw" height="" src="./Screenshot 2024-02-13 133540.png" alt=""></a>
+                <a href="./resume2.html"><img width="100vw" src="./Screenshot 2024-02-13 132808.png" alt=""></a>
+            </div>
+        </div>
+    </div>
 </body>
     
 </html>
