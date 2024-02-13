@@ -38,3 +38,5 @@ To use the Resume Builder Application:
 6. Optionally, click the "Download" button to download a PDF version of your resume.
 
 ## Image
+![Screenshot 2024-02-13 171121](https://github.com/mishra06/GEEKATHON_TEAM_10/assets/136301852/7a465920-9cc7-434a-a7ba-28aa456532c6)
+![Screenshot 2024-02-13 171536](https://github.com/mishra06/GEEKATHON_TEAM_10/assets/136301852/bb843897-15d3-4b54-9311-93ec826a23d8)
