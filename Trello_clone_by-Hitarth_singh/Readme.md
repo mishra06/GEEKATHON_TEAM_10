@@ -29,7 +29,7 @@ Trello is an innovative project management tool designed to streamline and enhan
 6. **Activity Tracking:**
    - Keep track of task history and changes with an activity log, allowing for a comprehensive overview of project progression.
 
-**Hosted Link - **https://mishra06.github.io/GEEKATHON_TEAM_10/Trello_clone_by-Hitarth_singh/  
+**Hosted Link** -https://mishra06.github.io/GEEKATHON_TEAM_10/Trello_clone_by-Hitarth_singh/  
 
 **Screen Shots**
 ![Screenshot (204)](https://github.com/mishra06/GEEKATHON_TEAM_10/assets/112773447/22221b65-de6b-4373-9a14-b7d46496e62d)
