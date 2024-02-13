@@ -2,111 +2,51 @@
     "products":[
         {
             "id": 1,
-            "name": "Apple Watch Ultra 2",
-            "price": 5000,
-            "image": "./images/apple-watch-ultra.jpg",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.0
+            "title": "For Children",
+            "description": "We are working on child’s dreams, education, health, nutrition, and lot many thing.",
+            "image": "./images/for-children.png"
         },
         {
             "id": 2,
-            "name": "Apple i-pad",
-            "price": 40000,
-            "image": "./images/apple-ipad.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.8
+            "title": "For Women",
+            "description": "We are working on pregnant women health, women health, nutrition, etc.",
+            "image": "./images/for-women.png"
         },
         {
             "id": 3,
-            "name": "Cosmic Joystick Remote",
-            "price": 2400,
-            "image": "./images/cosmic-joystick.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 3.6
+            "title": "For Education Center",
+            "description": "We are going to open free education center for financially deprived children.",
+            "image": "./images/for-education.png"
         },
         {
             "id": 4,
-            "name": "Iphone 15",
-            "price": 70000,
-            "image": "./images/iphone-15.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.4
+            "title": "Sponsor a Child",
+            "description": "You can sponsor a child of a poor child for their education, health, etc.",
+            "image": "./images/sponsor-a-child.png"
         },
         {
             "id": 5,
-            "name": "Macbook Pro M2 Chip",
-            "price": 150000,
-            "image": "./images/mac-pro.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.9
+            "title": "For Social Camping(Awareness)",
+            "description": "We are doing some social camping on various issues. Like: child labor, child marriage, child education, covid awareness, etc.",
+            "image": "./images/for-children.png"
         },
         {
             "id": 6,
-            "name": "Cosmic Mouse",
-            "price": 650,
-            "image": "./images/mouse.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 2.0
+            "title": "For Save Nature",
+            "description": "We are looking for a carbonless world for our upcoming generation. Hope you are also looking for the same world for your children's upcoming days.",
+            "image": "./images/for-women.png"
         },
         {
             "id": 7,
-            "name": "Noise Wrist Watch",
-            "price": 949,
-            "image": "./images/noise-watch.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 2.5
+            "title": "Special Day Celebration",
+            "description": "You can celebrate your special day like, birthday, anniversary, success, etc. with lunch or breakfast.And also provides required things",
+            "image": "./images/for-education.png"
         },
         {
             "id": 8,
-            "name": "Boat Razer Headphone",
-            "price": 1200,
-            "image": "./images/boat-headphone-1.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.0
-        },
-        {
-            "id": 9,
-            "name": "Boat Headphon",
-            "price": 2490,
-            "image": "./images/boat-headphone-2.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 3.0
-        },
-        {
-            "id": 10,
-            "name": "Blauplunkt Earburd",
-            "price": 720,
-            "image": "./images/blaupunkt-earburds.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 3.5
-        },
-        {
-            "id": 11,
-            "name": "Redgear Joystick Remote",
-            "price": 440,
-            "image": "./images/redgear-joystick.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 2.6
-        },
-        {
-            "id": 12,
-            "name": "Samsun S-24 Ultra Mobile",
-            "price": 51000,
-            "image": "./images/samsung-s24.JPG",
-            "get-it-by": "",
-            "delivery": "free",
-            "rating": 4.2
+            "title": "Member of Donor Family",
+            "description": "Become a member of the monthly donor family. Make a regular Monetary Donation and motivate others.",
+            "image": "./images/sponsor-a-child.png"
         }
     ]
   }
