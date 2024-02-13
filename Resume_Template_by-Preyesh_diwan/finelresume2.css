@@ -17,6 +17,20 @@
     z-index: -10;
     left: 0;
 }
+#sub{
+    margin-left: 17vw;
+    margin-top: 10px;
+    border-style: none;
+    padding: 8px 48px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#butn{
+    margin-left: 9vw;
+    padding: 10px 45px;
+    border-style: none;
+    border-radius: 5px;
+}
 .persnolInfo,.skills,.language{
     display: flex;
     flex-direction: column;
@@ -79,3 +93,16 @@
         background-color: aquamarine;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+.sample{
+    display: flex;
+    padding: 10px;
+}
+.testing{
+    display: flex;
+}
+.side1{
+    width: 18vw;
+    background-color:#084c41;
+    color: wheat;
+    text-align: center;
+}

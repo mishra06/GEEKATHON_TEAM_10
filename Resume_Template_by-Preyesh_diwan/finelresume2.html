@@ -13,6 +13,7 @@
 </style>
 <body>
     <div class="main">
+        <div class="testing">
 <div class="form leftSide">
     <form action="">
     <div>
@@ -50,6 +51,10 @@
                 <input type="email" name="" id="email"  class="inputtip">
             </div>
             
+            <div class="updown">
+                <label for="">Image</label>
+                <input type="file" id="image-file" accept="Image/jpg , Image/png , Image/jpeg">
+            </div>
         </div>
     </div>
 </div>
@@ -156,13 +161,37 @@
     </form>
 
     <button id="sub">save</button>
+    <div id="but">
+        
     </div>
+    </div>
+    
+    
+    <div class="sample">
+
+        <div class="side1">
+            <img width="200px" src="" alt="" id="profilePhoto1">
+            <h2>preyesh dhar diwan</h2>
+            <span>bilaspur</span>
+            <span>9589264644</span>
+            <span>pajfokfoefv</span>
+            <h2>skil</h2>
+            <span>sodfsn</span>
+            <span>aeojjbf</span>
+            <h2>Language</h2>
+            <span>aijvh</span>
+            <span>assjvuh</span>
+        </div>
+
+        <div class="side2" id="side2">
+            
+        </div>
+    </div>
+</div>
     
     <div class="rightSide">
 
-        <div id="but">
         
-        </div>
         
         <div class="twoParts" id="twoParts1">
             <div class="firstPart">
@@ -172,7 +201,7 @@
 
                 <div class="persnolInfo">
                     <div class="img">
-                        <img width="200px" id="profilePhoto" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1NTYzMzZ8MHwxfHNlYXJjaHwxfHxjYXJ8ZW58MHx8fHwxNzA1OTk3MjMzfDA&ixlib=rb-4.0.3&q=85" alt="">
+                        <img width="200px" src="" alt="" id="profilePhoto">
                     </div>
                     <h2 id="prfullName">preyesh dhar diwan</h2>
                     <span id="praddresh">bilaspur </span>
@@ -210,6 +239,18 @@
             </div>
         </div>
     </div>
+    
+
+    <script>
+        const image = document.querySelector('#image-file');
+        const profilepic = document.querySelector('#profilePhoto');
+        const profilepic1 = document.querySelector('#profilePhoto1');
+
+        image.onchange = function (){
+            profilepic.src = URL.createObjectURL(image.files[0]);
+            profilepic1.src = URL.createObjectURL(image.files[0]);
+}
+    </script>
 
     <script src="./finelresume2.js"></script>
 </body>
