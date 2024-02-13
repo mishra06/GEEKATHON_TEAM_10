@@ -10,10 +10,12 @@
 
 
 body{
-    background-color: rgb(157, 232, 208);
+    /* background-color: rgb(208, 150, 255); */
+    background-color: rgb(131,58,180);
+    /* background-color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 68%, rgba(252,176,69,1) 100%); */
     color: rgb(7, 7, 7);
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Protest Riot','Protest Revolution', sans-serif;
     
 }
@@ -24,7 +26,7 @@ body{
   display: flex;
   width: 100%;
   height: 100vh;
-  background-color: #506bf0;
+  background-color: #f1bdfc;
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
@@ -39,7 +41,11 @@ body{
   gap: 2rem;
   height: 90%;
   width: 90%;
-  background-color: #020202;
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(153,174,58,0.9977240896358543) 0%, rgba(59,21,131,1) 100%);
+  /* background: linear-gradient(0deg, rgba(85,167,168,1) 0%, rgba(228,182,82,1) 100%); */
+  /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  /* background: radial-gradient(circle, rgba(252,70,107,1) 9%, rgba(63,94,251,1) 11%); */
 }
 
 .outer h1{
@@ -121,7 +127,7 @@ body{
 .home_page{
   font-family: Protest Revolution;
   font-size: 25px;
-  position: absolute;
+  /* position: absolute; */
   top: 5;
   left: 0;
   cursor: grab;
@@ -133,9 +139,18 @@ body{
   padding: 0;
 }
 
+ /* hdr section  */
+
+ .hdr{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+ }
+
 .togl{
-  position: absolute;
-  top: 5;
+  /* position: absolute; */
+  top: 0;
   right: 5px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 50%;
@@ -150,10 +165,10 @@ body{
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     
     /* padding-top: 0; */
 }
@@ -162,14 +177,14 @@ body{
    display: flex;
    gap: 2rem;
     padding: 10px;
-    height: 50vh;
+    /* height: 50vh; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .nes{
-    height: 100%;
+    height: 50vh;
     width: 30%;
 }
 
@@ -412,3 +427,22 @@ label{
     );
     box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
   }
+
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 425px) { 
+    .left{
+      display: flex;
+      flex-direction: column;
+    }
+    .nes{
+      width: 100%;
+      height: 30vh;
+    }
+
+    textarea{
+      height: 80%;
+    }
+    .right{
+      margin-top: 2rem;
+    }
+}

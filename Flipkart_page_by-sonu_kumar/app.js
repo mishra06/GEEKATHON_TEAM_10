@@ -1,7 +1,7 @@
 const content = document.querySelector(".content");
 
-function displayProducts() {
-  products.forEach((el) => {
+function displayProducts(product = products) {
+  product.forEach((el) => {
     let fAssured = "";
     let freeDelivery = "";
     let BankOffer = "";
@@ -43,3 +43,88 @@ function displayProducts() {
 }
 
 displayProducts();
+
+function selectProductThrouhRating() {
+  const aboveRating = document.querySelector("#aboveRating");
+  let initialValue = true;
+  aboveRating.addEventListener("change", (e) => {
+    console.log("acrivet");
+    content.innerHTML = "";
+    if (initialValue == true) {
+      initialValue = false;
+
+      if (e.target.id == "rating4") {
+        const filterdArr = products.filter((el) => {
+          if (el.rating >= 4) {
+            console.log(el.rating);
+            return el;
+          }
+        });
+        // console.log(filterdArr1);
+        displayProducts(filterdArr);
+      } else if (e.target.id == "rating3") {
+        const filterdArr = products.filter((el) => {
+          if (el.rating >= 3 && el.rating < 4) {
+            console.log(el.rating);
+            return el;
+          }
+        });
+        displayProducts(filterdArr);
+      } else if (e.target.id == "rating2") {
+        const filterdArr = products.filter((el) => {
+          if (el.rating >= 2 && el.rating < 3) {
+            console.log(el.rating);
+            return el;
+          }
+        });
+        displayProducts(filterdArr);
+      } else if (e.target.id == "rating1") {
+        const filterdArr = products.filter((el) => {
+          if (el.rating >= 1 && el.rating < 2) {
+            console.log(el.rating);
+            return el;
+          }
+        });
+        displayProducts(filterdArr);
+      }
+    } else {
+      displayProducts();
+      initialValue = true;
+    }
+  });
+}
+
+selectProductThrouhRating();
+
+function sorting() {
+  let sortingBtn = [...document.querySelectorAll(".sort-item")];
+
+  sortingBtn.forEach((e) => {
+    e.addEventListener("click", (ele) => {
+      content.innerHTML = "";
+      sortingBtn.forEach((btn) => {
+        btn.removeAttribute("id");
+      });
+      ele.target.id = "selected";
+      let copiedData = JSON.parse(JSON.stringify(products));
+      if (ele.target.innerText == "Price -- Low to High") {
+        copiedData = copiedData.sort((a, b) => {
+          return a.specialPrice - b.specialPrice;
+        });
+        displayProducts(copiedData);
+      } else if (ele.target.innerText == "Price -- High to Low") {
+        copiedData = copiedData.sort((a, b) => {
+          return b.specialPrice - a.specialPrice;
+        });
+        displayProducts(copiedData);
+      } else if (ele.target.innerText == "Popularity") {
+        copiedData = copiedData.sort((a, b) => {
+          return b.popularity - a.popularity;
+        });
+        displayProducts(copiedData);
+      }
+    });
+  });
+}
+
+sorting();

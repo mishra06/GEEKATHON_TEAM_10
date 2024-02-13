@@ -1,0 +1,81 @@
+.twoParts{
+    display: flex;
+    width: 100vw;
+}
+.firstPart{
+    position: absolute;
+    width: 19%;
+}
+.secondPart{
+    width: 68%;
+    position: absolute;
+    left: 265px;
+}
+.lineImg{
+    max-width: 100%;
+    position: absolute;
+    z-index: -10;
+    left: 0;
+}
+.persnolInfo,.skills,.language{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    color: wheat;
+}
+#but{
+    cursor: pointer;
+    margin: 100px;
+}
+.updown{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    max-width: 44vw;
+    background-color: cadetblue;
+    text-align: center;
+}
+.inputDta{
+    padding: 5px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: aquamarine;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.addbut{
+    cursor: pointer;
+    margin-left: 18vw;
+    margin-top: 20px;
+    padding: 7px 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color:e8f0fe;
+}
+.towpair{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 44vw;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .inputtip{
+        width: 18vw;
+        height: 6vh;
+        padding: 5px;
+        border-style: none;
+        border-radius: 7px;
+        background-color: aquamarine;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+    }
+    .text{
+        max-width: 43vw;
+        border-style: none;
+        border-radius: 7px;
+        padding: 5px;
+        background-color: aquamarine;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }

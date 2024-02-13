@@ -132,7 +132,7 @@ const products = [
 
     title: "REDMI 12 5G (Pastel Blue, 256 GB)",
 
-    rating: 4.8,
+    rating: 2.5,
 
     flipkartAssured: true,
 
@@ -153,7 +153,7 @@ const products = [
 
     title: "Apple iPhone 12 (Blue, 64 GB)",
 
-    rating: 4.1,
+    rating: 1,
 
     flipkartAssured: true,
 

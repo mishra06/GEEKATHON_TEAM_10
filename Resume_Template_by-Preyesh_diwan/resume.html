@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<style>
+    @media print{
+        body * {
+            display: none;
+        }
+        .rightSide,#down, #down * {
+            display: block;
+            width: 98vw;
+        }
+    }
+</style>
+<body>
+    <div class="main">
+<div class="form leftSide">
+    <form action="">
+    <div>
+    <div>
+        <h2>Personal Details</h2>
+        <div class="towpair">
+
+            <div class="updown">
+                <label for="">Name</label>
+                <input type="text" name="" id="fullName"  class="inputtip">
+            </div>
+
+            <div class="updown">
+                <label for="">City</label>
+                <input type="text" name="" id="city"  class="inputtip">
+            </div>
+
+            <div class="updown">
+                <label for="">State</label>
+                <input type="text" name="" id="state"  class="inputtip">
+            </div>
+
+            <div class="updown">
+                <label for="">Address</label>
+                <input type="text" name="" id="addrish"  class="inputtip">
+            </div>
+
+            <div class="updown">
+                <label for="">Phone No.</label>
+                <input type="number" name="" id="phoneNumber"  class="inputtip">
+            </div>
+    
+            <div class="updown">
+                <label for="">Email</label>
+                <input type="email" name="" id="email"  class="inputtip">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        <div>
+            <h2>Professional Summary</h2>
+            <textarea name="CARRER" id="CARRER" cols="80" rows="5" placeholder="CARRER OBJECTIVE" class="text"></textarea>
+        </div>
+
+
+        <div class="fiveinput">
+            <h2>Employment History</h2>
+            
+            <div class="towpair">
+            <div class="job-name updown">
+                <label for="job-tital">Job title</label>
+                <input type="text" name="job-tital" id="exp" class="inputtip">
+            </div>
+            
+            <div class="Employer updown">
+                <label for="employer">Employer</label>
+                <input type="text" name="employer" id="exp2" class="inputtip">
+            </div>
+           
+            <div class="job-date updown">
+                <label for="job-dates">Start & End Date</label>
+                <div>
+                    <input type="date" name="job-dates" id="exp3" class="inputDta">
+                    <input type="date" name="job-dates" id="exp4" class="inputDta">
+                </div>
+            </div>
+
+            <div class="citys updown">
+                <label for="city">City</label>
+                <input type="text" name="city" id="exp5" class="inputtip">
+            </div>
+            </div>
+
+            <div class="description">
+                <label for="description">Description</label>
+                <textarea name="" id="exp6" cols="80" rows="5" class="text"></textarea>
+            </div>
+            
+            <input type="button" value="Add more" id="addMoreExp" class="addbut">
+
+        </div>
+
+
+        <div class="fiveinput">
+            <h2>Education</h2>
+            <div class="towpair">
+                <div class="job-name updown">
+                    <label for="job-tital">School</label>
+                    <input type="text" name="job-tital" id="education" class="inputtip">
+                </div>
+                
+                <div class="Employer updown">
+                    <label for="employer">Degree</label>
+                    <input type="text" name="employer" id="education2" class="inputtip">
+                </div>
+               
+                <div class="job-date updown">
+                    <label for="job-dates">Start & End Date</label>
+                    <div>
+                        <input type="date" name="job-dates" id="education3" class="inputDta">
+                        <input type="date" name="job-dates" id="education4" class="inputDta">
+                    </div>
+                </div>
+    
+                <div class="citys updown">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="education5" class="inputtip">
+                </div>
+                </div>
+            <input type="button" value="Add more" id="addMoreEdu" class="addbut">
+        </div>
+
+
+        <div style="text-align: center;">
+            <h2>SKILS</h2>
+            <div class="towpair">
+                <input type="text" name="city" id="skil" class="inputtip">
+                <input type="text" name="city" id="skil2" class="inputtip">
+                <input type="text" name="city" id="skil3" class="inputtip">
+                <input type="text" name="city" id="skil4" class="inputtip">
+            </div>
+            <input type="button" value="Add more" id="addMoreSkil" class="addbut">
+        </div>
+
+        <div style="text-align: center;">
+            <h2>LANGUAGES</h2>
+            <div class="towpair">
+                <input type="text" name="city" id="lang" class="inputtip">
+                <input type="text" name="city" id="lang2" class="inputtip">
+                <input type="text" name="city" id="lang3" class="inputtip">
+                <input type="text" name="city" id="lang4" class="inputtip">
+            </div>
+            <input type="button" value="Add more" id="addMoreLang" class="addbut">
+        </div>
+
+        
+
+
+    </form>
+
+    <button id="sub">save</button>
+    </div>
+
+<div class="rightSide">
+    <div id="but">
+    
+    </div>
+
+    <div id="down">
+
+    </div>
+</div>
+
+</div>
+
+
+    <script src="./resume.js"></script>
+</body>
+</html>
