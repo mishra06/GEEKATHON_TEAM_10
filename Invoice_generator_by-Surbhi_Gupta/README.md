@@ -1,9 +1,9 @@
 Invoice Generator using HTML, CSS, Javascript
 
-Screenshots:-
-![Screenshot (334)](Screenshot (314).png)
-![Screenshot (335)](Screenshot (315).png)
-![Screenshot (335)](Screenshot (316).png)
+## UI
+![image](image.png)
+![image](image-1.png)
+![image](image-2.png)
 
 
 ## Introduction
