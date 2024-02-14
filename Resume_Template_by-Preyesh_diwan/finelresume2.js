@@ -1,10 +1,18 @@
 let expcount = 1;
+let expcount1 = 1;
 let eduCount = 1;
+let eduCount1 = 1;
 let skilCount = 1;
 downlodebut()
-document.querySelector('#addMoreEdu').addEventListener('click' , educationfun)
+document.querySelector('#addMoreEdu').addEventListener('click' , () =>{
+    sampleEdu()
+    educationfun()
+})
     
-document.querySelector('#addMoreExp').addEventListener('click' , jobExp)
+document.querySelector('#addMoreExp').addEventListener('click' , () =>{
+    jobExp();
+    sampleExp();
+})
 
 document.querySelector('#addMoreSkil').addEventListener('click' , skill)
 
@@ -24,17 +32,26 @@ let CARRER = document.querySelector("#CARRER").value;
 
 
 
+
 let prName = document.querySelector('#prfullName')
 prName.innerText = fullName;
+let showName = document.querySelector('#showName')
+showName.innerText = fullName;
 
 let praddresh = document.querySelector('#praddresh')
 praddresh.innerHTML = `${state} , ${city} , ${add}`;
+let showAdd = document.querySelector('#showAdd');
+showAdd.innerText = `${state} , ${city} , ${add}`;
 
 let prphone = document.querySelector('#prphone');
 prphone.innerHTML = phoneNumber;
+let showphone = document.querySelector('#showphone');
+showphone.innerText = phoneNumber;
 
 let premail = document.querySelector('#premail');
 premail.innerHTML = email;
+let showemail = document.querySelector('#showemail');
+showemail.innerText = email;
 
 
 console.log("kuch",fullName,city,state,add,phoneNumber,email,
@@ -94,13 +111,16 @@ console.log("kuch",fullName,city,state,add,phoneNumber,email,
 
 
     jobExp()
+    sampleExp()
 
     educationfun()
+    sampleEdu()
 
     skill()
     
     language()
     
+
 
 })
 
@@ -178,6 +198,7 @@ function downlodebut(){
 
     let button = document.querySelector('#but');
     let but = document.createElement('button');
+    but.id = 'butn'
     button.innerHTML = "";
     but.innerHTML = "Downlode";
     button.append(but)
@@ -240,6 +261,58 @@ function jobExp(){
         file.append(thirdDiv)
     }
 }
+function sampleExp(){
+
+    let file = document.querySelector("#side2")
+
+    var exp = document.querySelector("#exp").value;
+    var exp2 = document.querySelector("#exp2").value;
+    var exp3 = document.querySelector("#exp3").value;
+    var exp4 = document.querySelector("#exp4").value;
+    var exp5 = document.querySelector("#exp5").value;
+    let exp6 = document.querySelector('#exp6').value;
+
+    let experinse = document.createElement('span')
+    
+    
+    let experinse3 = document.createElement('span')
+    
+    let experinse6 = document.createElement('span')
+
+    let thirdDiv = document.createElement('div');
+    thirdDiv.style.textAlign = "center"
+    
+    let history = document.createElement("h3");
+    history.style.textAlign = "center"
+    let hr4 = document.createElement('hr');
+
+
+    experinse.innerHTML = ` :- ${exp} , ${exp2} , ${exp5}`;
+    experinse3.innerText = " "+exp3+" "+exp4;
+    experinse6.innerText = " "+exp6;
+    history.innerHTML = "EMPLOYMENT HISTORY"
+    let flg = 1;
+    
+    
+    if(expcount1 == 1){
+        thirdDiv.append(hr4,history);
+        expcount1++;
+
+    }
+    if(exp != ""){
+        thirdDiv.append(experinse);
+        flg = 2
+    }
+    if(exp3 != ""){
+        thirdDiv.append(experinse3);
+    }
+    if(exp6 != ""){
+        thirdDiv.append(experinse6);
+    }
+    if(exp != ""){
+        file.append(thirdDiv)
+    }
+}
 
 
 
@@ -283,6 +356,57 @@ function educationfun(){
     if(eduCount == 1){
         forthDiv.append(hr6,eduh4)
         eduCount++;
+    }
+    if(edu != ""){
+        forthDiv.append(education);
+    }
+    if(edu3 != ""){
+        forthDiv.append(education3);
+    }
+        
+        if(edu != ""){
+            file.append(forthDiv)
+        }
+}
+function sampleEdu(){
+
+    let file = document.querySelector("#side2")
+
+
+    let edu = document.querySelector("#education").value;
+    let edu2 = document.querySelector("#education2").value;
+    let edu3 = document.querySelector("#education3").value;
+    let edu4 = document.querySelector("#education4").value;
+    let edu5 = document.querySelector("#education5").value;
+
+
+    let education = document.createElement('span')
+    let education2 = document.createElement('span')
+    let education3 = document.createElement('span')
+    let education4 = document.createElement('span')
+    let education5 = document.createElement('span')
+    let forthDiv = document.createElement('div');
+    forthDiv.style.display = 'flex'
+    forthDiv.style.flexDirection = 'column'
+    forthDiv.style.textAlign = "center"
+    let eduh4 = document.createElement("h4");
+    eduh4.style.textAlign = "center"
+    let hr6 = document.createElement('hr');
+
+
+    education.innerText = ":- "+"  "+edu+" "+edu5+" "+edu2
+    
+    education3.innerText = edu3+" / "+ edu4;
+
+    eduh4.innerText = "EDUCATION"
+
+    let educhr = 1;
+
+
+
+    if(eduCount1 == 1){
+        forthDiv.append(hr6,eduh4)
+        eduCount1++;
     }
     if(edu != ""){
         forthDiv.append(education);

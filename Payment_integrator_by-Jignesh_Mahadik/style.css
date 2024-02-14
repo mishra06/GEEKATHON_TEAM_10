@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+/* Top Navbar 1 */
+nav{
+    background-color: rgb(230, 217, 83);
+    /* height: 45px; */
+    /* width: 100%; */
+    /* display: flex; */
+    overflow: hidden;
+    /* align-items: center; */
+    font-weight: 900;
+    
+}
+nav div{
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    cursor: pointer;
+}
+.nav-btn{
+    background-color: rgb(251, 61, 75);
+
+    color: white;
+    border-radius: 30px;
+    /* margin: 5px 0px; */
+}
+
+/* Top Navbar 1 */
+.logo{
+    width: 130px;
+    /* background-color: red; */
+    float: left;
+    position: absolute;
+    margin: 20px 80px;
+}
+.logo-navbar{
+    /* background-color: rgb(49, 99, 174); */
+    overflow: hidden;
+    font-weight: 900;
+    /* height: 100px; */
+}
+.logo-navbar #contact-details{
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+/* Banner */
+.banner-image img{
+    width: 100%;
+}
+#banner-text{
+    position: absolute;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 45px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#cap{
+    position: absolute;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 20px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+/* Programs */
+#pro{
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* background-color: gray; */
+    gap: 10px;
+    padding: 20px;
+}
+#pro h1{
+    font-weight: 700;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 40px;
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#donate-programs{
+    /* background-color: violet; */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    padding-left: 10px;
+}
+.donate{
+    /* flex-grow: 1; */
+    max-width: 300px;
+    /* background-color: aqua; */
+    width: 300px;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+.desc{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-donate-now{
+    background-color: rgb(251, 61, 75);
+    /* width: 200px; */
+    height: 35px;
+    margin: 20px 50px 10px 50px;
+    padding-top: 15px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Lato, Muli, -apple-system, BlinkMacSystemFont, Arial,sans-serif;
+    font-weight: 600;
+}
+#donate-icon{
+    height: 50px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+}
+#title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
