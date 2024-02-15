@@ -43,13 +43,13 @@ function donateNow(id){
     // Callback function has been used here
     var options = {
         "key": "rzp_test_jrCov5EqE0IEXh", // Enter the Key ID generated from the Dashboard
-        "amount": "100000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        "amount": "100", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         "currency": "INR",
         "name": "Full Moon Foundation", //your business name
         "description": "Test Transaction",
         "image": "./images/logo.svg",
         // "order_id": "order_NaQOVJUuX8qZU8", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+        // "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",    //Redirect after successful payment
         "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
             "name": "Jignesh Mahadik", //your customer's name
             "email": "jigneshmahadik2898@gmail.com",
@@ -60,9 +60,17 @@ function donateNow(id){
         },
         "theme": {
             // "color": "#246b8f"
-        }
+        },
+        "modal":{
+            "confirm_close": "true",  //Ask whether a confirmation dialog box should be shown if customers attempts to close Checkout.
+        },
+        "redirect": "false",
+        "timeout": "400"    //Time within user will have to complete the payment
     };
     var rzp1 = new Razorpay(options);
-    rzp1.open();
+    let c = rzp1.open();
+    if(c = razorpay_signature){
+        alert("Thanks");
+    }
     // e.preventDefault();
 }

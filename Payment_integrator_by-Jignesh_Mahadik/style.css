@@ -12,6 +12,14 @@ nav{
     font-weight: 900;
     
 }
+#programs{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    text-decoration: none;
+    color: black;
+}
 nav div{
     float: right;
     color: #000000;
@@ -138,4 +146,34 @@ nav div{
     padding-right: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+/* Quotes  */
+.quote-sec{
+    background-color: rgb(230, 217, 83);
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.quote-sec .message{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+.quote-sec .owner{
+    font-size: 23px;
+}
+
+/* Footer */
+.footer{
+    background-color: #383838;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer p{
+    color: white;
 }
