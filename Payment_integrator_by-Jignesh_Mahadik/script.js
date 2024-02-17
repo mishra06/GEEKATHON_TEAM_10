@@ -43,7 +43,7 @@ function donateNow(id){
     // Callback function has been used here
     var options = {
         "key": "rzp_test_jrCov5EqE0IEXh", // Enter the Key ID generated from the Dashboard
-        "amount": "100", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        "amount": "10000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         "currency": "INR",
         "name": "Full Moon Foundation", //your business name
         "description": "Test Transaction",
