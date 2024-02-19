@@ -51,8 +51,8 @@ function donateNow(id){
         // "order_id": "order_NaQOVJUuX8qZU8", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
         // "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",    //Redirect after successful payment
         "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
-            "name": "Jignesh Mahadik", //your customer's name
-            "email": "jigneshmahadik2898@gmail.com",
+            "name": "John doe", //your customer's name
+            "email": "johndoe@gmail.com",
             "contact": "9000090000" //Provide the customer's phone number for better conversion rates 
         },
         "notes": {
