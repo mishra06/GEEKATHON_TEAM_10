@@ -142,7 +142,13 @@ function darkLightMode() {
   );
 }
 
+
+
+
 darkLightMode();
+
+
+//  **************** landing page logic *******************
 
 function start() {
   const startBtn = document.querySelector("#startBtn");
