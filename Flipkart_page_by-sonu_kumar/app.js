@@ -96,6 +96,8 @@ function selectProductThrouhRating() {
 
 selectProductThrouhRating();
 
+//  *************sorting*************
+
 function sorting() {
   let sortingBtn = [...document.querySelectorAll(".sort-item")];
 
